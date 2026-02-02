@@ -1,0 +1,412 @@
+- Subtitle: "Fullstack Developer" with continuous scroll animation
+- Background: Subtle particle system or gradient mesh
+
+OVERALL HERO:
+- Full-screen immersive design
+- Smooth entrance animations
+- Parallax scrolling effects
+- Optional: Three.js animated background (geometric shapes, particles)
+
+═══════════════════════════════════════════════════════════════
+
+3. ABOUT SECTION:
+
+Split into multiple subsections with cards:
+
+A) PORTRAIT CARD (Interactive):
+- Large professional photo
+- "Hover to read more" overlay instruction
+- On hover: Reveals expandable cards with info:
+  
+  CARD 1 - Science Club/Projects:
+  * Icon + "Science Club" heading
+  * Short description (2 lines)
+  * Expanded: Full details about involvement
+  
+  CARD 2 - University/Education:
+  * Icon + University name
+  * Degree and ranking
+  * Expanded: Full details about program
+  
+  CARD 3 - Competitions/Achievements:
+  * Icon + Competition names
+  * Awards and recognition
+  * Expanded: Full details about accomplishments
+
+B) CRAFT SECTION:
+- Heading: "Craft"
+- Subheading: "Building scalable apps, websites, and automations."
+- Description paragraph
+- Scrolling tech stack ribbon:
+  * Infinite horizontal scroll animation
+  * Tech logos/names: Next.js, React, TypeScript, Flutter, Python, Node, Tailwind, Docker, Git
+  * Duplicate for seamless loop
+- Tagline: "I will find & deliver the best tech solution for your business."
+- Status badge: "Open to collaboration & freelance"
+
+C) LOCATION CARD:
+- Map background image (blurred/dark overlay)
+- Location: "City, Country"
+- Coordinates display
+- Timezone
+- Subtle pin icon animation
+
+D) MINDSET SECTION:
+- Heading: "Mindset"
+- Philosophy statement: "Building more than software. My passions provide the discipline and focus I need to grow."
+- Image grid (2x2 or 3x1):
+  * Hobby/sport images (Running, Gym, Martial Arts, etc.)
+  * Each with label on hover
+  * One large center image (portrait or main hobby)
+- Quote: "Mastering body and mind is my path to excellence."
+
+═══════════════════════════════════════════════════════════════
+
+4. PROJECTS SECTION:
+
+LAYOUT:
+- Section heading: "Portfolio" + "Featured Projects"
+- Subtitle: "A curated selection of projects that made me confident in building software."
+- Grid layout with numbered project cards (01, 02, 03, 04)
+
+PROJECT CARD DESIGN:
+Each card includes:
+- Large number (01, 02, etc.)
+- Category tag (Desktop App, Mobile App, Web App, AI Project)
+- Project title
+- GitHub star button/link
+- Description (1-2 sentences)
+- Tech stack badges
+- Screenshot(s):
+  * Single large image for desktop/web apps
+  * Multiple phone mockups for mobile apps (3 screens side by side)
+  * Hover: Slight zoom effect
+- Clean borders and spacing
+
+SAMPLE PROJECTS (4-6):
+1. Desktop App - Cube Solver (C++, OpenCV, Algorithms)
+2. Mobile App - Improvement Tree (React Native, Java, Spring Boot)
+3. Desktop App - Game Project (Python, Game Dev)
+4. Mobile App - Social App (Flutter, WebSockets)
+5. Web App - Dashboard (Next.js, API Integration)
+6. AI Project - ML Model (Python, TensorFlow)
+
+- "Explore all projects on GitHub" button at bottom
+
+═══════════════════════════════════════════════════════════════
+
+5. SKILLS SECTION:
+
+LAYOUT:
+- Section heading: "Tech Stack" + "My Skills"
+- Visual skill display options:
+
+OPTION A - Organized Categories:
+Frontend Development:
+- React, Next.js, Vue, TypeScript, HTML5, CSS3, Tailwind
+
+Backend Development:
+- Node.js, Python, Java, Express, Django, Spring Boot
+
+Database & Cloud:
+- MongoDB, PostgreSQL, Firebase, AWS, Docker
+
+Tools & Other:
+- Git, VS Code, Figma, Linux
+
+OPTION B - Interactive Grid:
+- Skill cards with logos
+- Hover: Card lifts up, shows proficiency level
+- Color-coded by category
+- Animated entrance on scroll
+
+OPTION C - Floating Logos (Three.js):
+- 3D floating tech stack logos
+- Interactive mouse movement
+- Click to see details
+
+Include proficiency indicators (bars, circles, or percentage)
+
+═══════════════════════════════════════════════════════════════
+
+6. OTHER/ADDITIONAL SECTIONS:
+
+Create cards for extra content:
+
+CARD 1 - GUESTBOOK:
+- "Leave your mark and see what others have to say"
+- "Explore →" link
+- Icon: Message or book
+
+CARD 2 - ACHIEVEMENTS:
+- "Milestones, certifications, and accomplishments"
+- "Explore →" link
+- Icon: Trophy or star
+
+CARD 3 - MY LINKS:
+- "Find me across the web and social platforms"
+- "Explore →" link
+- Icon: Link or share
+
+Grid layout (3 columns on desktop, 1 on mobile)
+Each card has hover effect (lift + glow)
+
+═══════════════════════════════════════════════════════════════
+
+7. FOOTER:
+
+- Initials logo (e.g., "PS")
+- Copyright: "© 2026 Your Name"
+- "Built with ❤️ using Next.js & Tailwind"
+- Social links (GitHub, LinkedIn, Twitter, Email)
+- Minimal design, centered text
+- Dark background
+
+═══════════════════════════════════════════════════════════════
+
+DESIGN SPECIFICATIONS:
+
+COLOR PALETTE:
+- Background: Very dark blue/black (#0A0A0F, #0F0F1E)
+- Card backgrounds: Dark gray with subtle gradient (#1A1A2E, #16213E)
+- Text primary: White (#FFFFFF)
+- Text secondary: Light gray (#94A3B8)
+- Accent: Blue/Purple gradient (#3B82F6 to #8B5CF6)
+- Accent 2: Cyan or green for highlights (#06B6D4)
+
+TYPOGRAPHY:
+- Headings: 'Space Grotesk' or 'Inter' (700-800 weight)
+- Body: 'Inter' (400-500 weight)
+- Code: 'Fira Code'
+- Size hierarchy:
+  * Hero name: 4xl-6xl
+  * Section headings: 2xl-3xl
+  * Card titles: xl-2xl
+  * Body: base-lg
+
+CARD STYLING:
+- Border: 1px solid rgba(255,255,255,0.1)
+- Border radius: 12-16px
+- Background: Dark with subtle gradient
+- Shadow: Soft glow on hover
+- Padding: 24-32px
+- Backdrop filter: blur(10px) for glass effect
+
+ANIMATIONS & EFFECTS:
+- Scroll-triggered fade-ins (Framer Motion)
+- Stagger animations for lists
+- Parallax effects
+- Smooth page transitions
+- Hover: translateY(-4px), scale(1.02)
+- Card tilt effect on mouse move
+- Infinite scroll for tech stack ribbon
+- Typewriter effect for hero subtitle
+- Cursor follow effect (optional)
+
+SPACING & LAYOUT:
+- Max width: 1280px
+- Section padding: 80-120px vertical
+- Grid gap: 24-32px
+- Consistent 8px spacing system
+
+═══════════════════════════════════════════════════════════════
+
+TECHNICAL FEATURES:
+
+1. PERFORMANCE:
+- Server-side rendering (Next.js)
+- Image optimization (next/image)
+- Lazy loading for sections
+- Code splitting
+- Optimized animations (GPU accelerated)
+- < 3 second load time
+
+2. RESPONSIVE DESIGN:
+- Mobile-first approach
+- Breakpoints: 640px, 768px, 1024px, 1280px
+- Touch-friendly on mobile
+- Simplified animations on mobile
+- Optimized images for different screens
+
+3. SEO:
+- Meta tags (title, description, OG)
+- Semantic HTML
+- Structured data
+- Sitemap
+- robots.txt
+
+4. ACCESSIBILITY:
+- ARIA labels
+- Keyboard navigation
+- Focus indicators
+- Alt text for images
+- Color contrast compliance (WCAG AA)
+
+5. INTERACTIONS:
+- Smooth scroll behavior
+- Section scroll spy (highlight active nav)
+- Form validation (if contact form included)
+- Loading states
+- Error boundaries
+
+═══════════════════════════════════════════════════════════════
+
+CODE STRUCTURE:
+
+/app
+  /components
+    /ui
+      - Button.tsx
+      - Card.tsx
+      - Badge.tsx
+    /sections
+      - Hero.tsx
+      - About.tsx
+      - Projects.tsx
+      - Skills.tsx
+      - Other.tsx
+    /layout
+      - Navbar.tsx
+      - Footer.tsx
+  /lib
+    - data.ts (all content here)
+    - constants.ts
+  /public
+    /images
+    /projects
+  - page.tsx
+  - layout.tsx
+  - globals.css
+
+/data.ts structure:
+- Personal info (name, title, bio, location, contact)
+- Projects array (with all details)
+- Skills array (organized by category)
+- About cards content
+- Social links
+
+═══════════════════════════════════════════════════════════════
+
+ADDITIONAL FEATURES TO INCLUDE:
+
+1. AI CHAT WIDGET (Hero section):
+- Simulated conversation
+- Pre-written responses based on tabs
+- Typing indicator animation
+- Beautiful chat bubble design
+- Can link to actual chatbot later
+
+2. BOOK A CALL BUTTON:
+- Integrates with Calendly or Cal.com
+- Opens modal or new tab
+- Prominent placement
+
+3. SMOOTH SCROLL:
+- Lenis smooth scroll library
+- Or CSS scroll-behavior: smooth
+- Parallax effects
+
+4. DARK MODE ONLY:
+- No light mode toggle needed (unless you want)
+- Optimized for dark theme
+
+5. MICRO-INTERACTIONS:
+- Button ripple effects
+- Card hover glows
+- Icon animations
+- Text gradient shimmer
+- Loading skeletons
+
+6. ANALYTICS READY:
+- Google Analytics setup
+- Event tracking placeholders
+
+═══════════════════════════════════════════════════════════════
+
+CONTENT PLACEHOLDERS:
+
+PERSONAL INFO:
+- Name: "Your Full Name"
+- Title: "Full-Stack Developer | AI Enthusiast"
+- Location: "Your City, Country"
+- Coordinates: "XX.XXXX° N, XX.XXXX° E"
+- Timezone: "GMT+X"
+- Bio: Professional description (2-3 sentences)
+
+ABOUT CARDS:
+1. "Active member of Tech Community. Working on AI/ML projects."
+2. "Pursuing Computer Science at [University]. Top-ranked program."
+3. "Award Winner at [Hackathon]. Startup Finalist at [Competition]."
+
+MINDSET:
+- Philosophy statement
+- 4 hobby images with labels
+
+PROJECTS (6 projects minimum):
+- Include variety: Desktop, Mobile, Web, AI
+- Tech stacks
+- GitHub links
+- Descriptions
+
+SKILLS:
+- 20-30 technologies across categories
+- Logos for major technologies
+
+SOCIAL LINKS:
+- GitHub
+- LinkedIn
+- Twitter/X
+- Email
+- Calendly/Cal.com
+
+═══════════════════════════════════════════════════════════════
+
+SPECIAL INSTRUCTIONS:
+
+1. Make it EXACTLY like Paweł's style:
+   - Same card-based approach
+   - Same minimalist dark design
+   - Same section organization
+   - Same smooth animations
+   - Same professional feel
+
+2. Comments in code:
+   - How to update personal info
+   - How to add/remove projects
+   - How to customize colors
+   - Animation configuration
+
+3. README.md with:
+   - Setup guide
+   - Content customization guide
+   - Deployment instructions
+   - Feature explanations
+
+4. Make all content easily editable in /lib/data.ts
+
+5. Production-ready:
+   - No console errors
+   - No broken links
+   - Optimized performance
+   - All images optimized
+   - Proper error handling
+
+6. Unique touches:
+   - Add your own personality
+   - Custom animations
+   - Personal branding
+   - Unique project presentations
+
+═══════════════════════════════════════════════════════════════
+
+DELIVERABLES:
+✅ Fully responsive Next.js portfolio
+✅ Paweł Szostak inspired design
+✅ Smooth animations throughout
+✅ All sections implemented
+✅ Easy content management
+✅ Production-ready code
+✅ Complete documentation
+✅ Deployment ready for Vercel
+
+Build a portfolio that's professional, memorable, and showcases world-class development skills. Make it stand out like Paweł's does - elegant, minimal, and impressive.
