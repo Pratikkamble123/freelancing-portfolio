@@ -34,7 +34,7 @@ export function Navbar() {
         <div className="flex gap-6 text-sm font-medium text-muted-foreground">
           <a href="#about" className="hover:text-foreground transition-colors">About</a>
           <a href="#projects" className="hover:text-foreground transition-colors">Work</a>
-          <a href="#guestbook" className="hover:text-foreground transition-colors">Guestbook</a>
+          <a href="#guestbook" className="hover:text-foreground transition-colors">Contact</a>
         </div>
       </div>
     </motion.nav>

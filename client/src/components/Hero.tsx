@@ -29,8 +29,8 @@ export function Hero() {
           </div>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-[0.9] mb-6 tracking-tighter">
-            Fullstack <br />
-            <span className="text-gradient">Developer</span>
+           Web & AI Solutions That Grow Your <br />
+            <span className="text-gradient">Business</span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto md:mx-0 mb-8 font-light">
@@ -42,13 +42,13 @@ export function Hero() {
               href="#projects" 
               className="px-8 py-3 rounded-xl bg-foreground text-background font-semibold hover:bg-foreground/90 transition-all hover:scale-105 active:scale-95 flex items-center justify-center gap-2"
             >
-              View Work <ArrowDown className="w-4 h-4" />
+              See My Work <ArrowDown className="w-4 h-4" />
             </a>
             <a 
               href="#guestbook" 
               className="px-8 py-3 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all hover:scale-105 active:scale-95 flex items-center justify-center gap-2"
             >
-              Sign Guestbook
+              Hire Me
             </a>
           </div>
         </motion.div>

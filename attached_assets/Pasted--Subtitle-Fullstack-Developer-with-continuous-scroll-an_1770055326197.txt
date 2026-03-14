@@ -35,7 +35,8 @@ A) PORTRAIT CARD (Interactive):
 
 B) CRAFT SECTION:
 - Heading: "Craft"
-- Subheading: "Building scalable apps, websites, and automations."
+- Subheading: "I help businesses build websites, web applications,
+and AI tools that save time and grow their business."
 - Description paragraph
 - Scrolling tech stack ribbon:
   * Infinite horizontal scroll animation

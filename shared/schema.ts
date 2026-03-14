@@ -4,8 +4,12 @@ import { z } from "zod";
 
 // === TABLE DEFINITIONS ===
 export const guestbookEntries = pgTable("guestbook_entries", {
-  id: serial("id").primaryKey(),
+ id: serial("id").primaryKey(),
   name: text("name").notNull(),
+  email: text("email").notNull(),
+  projectType: text("project_type"),
+  budget: text("budget"),
+  deadline: text("deadline"),
   message: text("message").notNull(),
   createdAt: timestamp("created_at").defaultNow(),
 });

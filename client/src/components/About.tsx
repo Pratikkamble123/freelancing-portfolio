@@ -32,7 +32,7 @@ export function About() {
         >
           <h2 className="text-3xl md:text-5xl font-display font-bold mb-4">About Me</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            A glimpse into my world, my background, and what drives me.
+           Building scalable web applications and AI-powered solutions for modern businesses.
           </p>
         </motion.div>
 
@@ -45,8 +45,8 @@ export function About() {
                 👨‍💻
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-white">The Developer</h3>
-                <p className="text-sm text-muted-foreground">Building since 2018</p>
+                <h3 className="text-2xl font-bold text-white">Full-Stack Web & AI Developer</h3>
+                <p className="text-sm text-muted-foreground">Helping startups and businesses build scalable digital products.</p>
               </div>
             </div>
             <p className="text-lg text-muted-foreground leading-relaxed">
@@ -61,7 +61,7 @@ export function About() {
             <div className="relative z-10 h-full flex flex-col justify-end">
               <MapPin className="w-6 h-6 text-primary mb-2" />
               <h4 className="text-xl font-bold">{SITE_DATA.about.location}</h4>
-              <p className="text-sm text-gray-300">Based in</p>
+              <p className="text-sm text-gray-300">Open to freelance projects and long-term collaborations.</p>
             </div>
           </BentoCard>
 
@@ -80,9 +80,10 @@ export function About() {
                 <Brain className="w-6 h-6" />
               </div>
               <div>
-                <h4 className="text-lg font-bold text-white">Mindset</h4>
-                <p className="text-muted-foreground">{SITE_DATA.about.mindset}</p>
-              </div>
+                <h4 className="text-lg font-bold text-white">Work Philosophy</h4>
+<p className="text-muted-foreground">
+ My approach is simple — understand the business problem first, then build a solution that is efficient, scalable, and built to deliver real impact.</p>
+  </div>
             </div>
             <Code className="w-12 h-12 text-white/5" />
           </BentoCard>

@@ -24,9 +24,9 @@ export function Projects() {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div>
             <h2 className="text-3xl md:text-5xl font-display font-bold mb-4">Selected Work</h2>
-            <p className="text-muted-foreground">Digital products crafted with precision.</p>
+            <p className="text-muted-foreground">Real-world projects built for performance, scalability, and business impact.</p>
           </div>
-          <a href="#" className="text-sm font-mono text-primary hover:text-primary/80 flex items-center gap-2">
+          <a href="https://github.com/Pratikkamble123" className="text-sm font-mono text-primary hover:text-primary/80 flex items-center gap-2">
             View Github <Github className="w-4 h-4" />
           </a>
         </div>

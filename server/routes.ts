@@ -3,7 +3,7 @@ import type { Server } from "http";
 import { storage } from "./storage";
 import { api } from "@shared/routes";
 import { z } from "zod";
-
+import { sendProjectEmail } from "./utils/sendEmail";
 export async function registerRoutes(
   httpServer: Server,
   app: Express
@@ -14,23 +14,21 @@ export async function registerRoutes(
     res.json(entries);
   });
 
-  app.post(api.guestbook.create.path, async (req, res) => {
-    try {
-      const input = api.guestbook.create.input.parse(req.body);
-      const entry = await storage.createGuestbookEntry(input);
-      res.status(201).json(entry);
-    } catch (err) {
-      if (err instanceof z.ZodError) {
-        res.status(400).json({
-          message: err.errors[0].message,
-          field: err.errors[0].path.join('.'),
-        });
-      } else {
-        res.status(500).json({ message: "Internal Server Error" });
-      }
-    }
-  });
 
+
+app.post("/api/guestbook", async (req, res) => {
+  try {
+    const newEntry = await storage.createGuestbookEntry(req.body);
+
+    // 🔥 SEND EMAIL
+    await sendProjectEmail(newEntry);
+
+    res.status(201).json(newEntry);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Failed to create inquiry" });
+  }
+});
   // Seed Data (Check if empty then seed)
   const existing = await storage.getGuestbookEntries();
   if (existing.length === 0) {

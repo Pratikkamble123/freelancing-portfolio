@@ -39,8 +39,8 @@ export function useCreateGuestbookEntry() {
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: [api.guestbook.list.path] });
       toast({
-        title: "Message signed!",
-        description: "Thank you for stopping by.",
+        title: "Your project details have been received.  ",
+        description: "I’ll carefully analyze the scope and get back to you with next steps shortly.",
       });
     },
     onError: (error) => {
