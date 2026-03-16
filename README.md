@@ -125,7 +125,7 @@ Businesses can submit project requests including:
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/Pratikkamble123/freelancing-portfolio.git
 ```
 
 Install dependencies
